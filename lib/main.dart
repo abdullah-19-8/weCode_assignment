@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Hello kurdistan'),
     );
   }
 }
@@ -39,6 +39,10 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
+            Image(image: AssetImage('images/Flag_of_Kurdistan.png')),
+            SizedBox(
+              height: 10,
+            ),
             Text(
               'Hello kurdistan',
             ),
