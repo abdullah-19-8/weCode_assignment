@@ -39,7 +39,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
-            Image(image: AssetImage('images/Flag_of_Kurdistan.png')),
+            Image(
+                image: NetworkImage(
+                    'https://www.europeanforum.net/images/resized/945/uploads/headlines/flag_of_kurdistan_khoiboun.png')),
             SizedBox(
               height: 10,
             ),
